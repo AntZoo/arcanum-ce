@@ -61,7 +61,7 @@ jobs:
           retention-days: 7
   ios:
     name: iOS
-    runs-on: macos-13
+    runs-on: macos-15
     steps:
       - name: Clone
         uses: actions/checkout@v4
@@ -145,7 +145,7 @@ jobs:
           retention-days: 7
   macos:
     name: macOS
-    runs-on: macos-13
+    runs-on: macos-15
     steps:
       - name: Clone
         uses: actions/checkout@v4
